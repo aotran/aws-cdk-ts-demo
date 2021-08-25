@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<PurchaseOrder PurchaseOrderNumber="99504" OrderDate="1999-10-22">
+  <Address Type="Shipping">
+    <Name>Jessica Arnold</Name>
+    <Street>4055 Madison Ave</Street>
+    <City>Seattle</City>
+    <State>WA</State>
+    <Zip>98112</Zip>
+    <Country>USA</Country>
+  </Address>
+  <Address Type="Billing">
+    <Name>Jessica Arnold</Name>
+    <Street>4055 Madison Ave</Street>
+    <City>Buffalo</City>
+    <State>NY</State>
+    <Zip>98112</Zip>
+    <Country>USA</Country>
+  </Address>
+  <Items>
+    <Item PartNumber="898-AZ">
+      <ProductName>Computer Keyboard</ProductName>
+      <Quantity>1</Quantity>
+      <Price>29.99</Price>
+    </Item>
+    <Item PartNumber="898-AM">
+      <ProductName>Wireless Mouse</ProductName>
+      <Quantity>1</Quantity>
+      <Price>14.99</Price>
+    </Item>
+  </Items>
+</PurchaseOrder>

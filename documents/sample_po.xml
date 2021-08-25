@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<PurchaseOrder PurchaseOrderNumber="99503" OrderDate="1999-10-20">
+  <Address Type="Shipping">
+    <Name>Ellen Adams</Name>
+    <Street>123 Maple Street</Street>
+    <City>Mill Valley</City>
+    <State>CA</State>
+    <Zip>10999</Zip>
+    <Country>USA</Country>
+  </Address>
+  <Address Type="Billing">
+    <Name>David Smith</Name>
+    <Street>1234 Oak Street</Street>
+    <City>Maryland Heights</City>
+    <State>MO</State>
+    <Zip>63043</Zip>
+    <Country>USA</Country>
+  </Address>
+  <Items>
+    <Item PartNumber="100-B">
+      <ProductName>Yard Waste Bags</ProductName>
+      <Quantity>5</Quantity>
+      <USPrice>8.95</USPrice>
+    </Item>
+    <Item PartNumber="23-T">
+      <ProductName>Trowel</ProductName>
+      <Quantity>1</Quantity>
+      <USPrice>14.95</USPrice>
+    </Item>
+    <Item PartNumber="18-S">
+      <ProductName>Decorative Paving Stones</ProductName>
+      <Quantity>25</Quantity>
+      <USPrice>3.95</USPrice>
+    </Item>
+  </Items>
+</PurchaseOrder>
